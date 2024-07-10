@@ -31,39 +31,4 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
-
-
-    // get cursor
-    Shery.mouseFollower({
-        //Parameters are optional.
-        skew: true,
-        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-        duration: 1,
-    });
-
-    Shery.textAnimate(".banner-content h1", {
-        //Parameters are optional.
-        style: 2,
-        y: 10,
-        delay: 0.1,
-        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-    });
-
-
-    Shery.makeMagnet("#get-in-touch, .banner-content h1", {
-        //Parameters are optional.
-        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-        duration: 1,
-    });
-
-    Shery.makeMagnet(".banner-content .ctas a", {
-        //Parameters are optional.
-        ease: "cubic-bezier(0.23, 1, 0.320, 1)",
-        duration: 1,
-    });
-
-    Shery.imageEffect("#quick-about-us .image-cover img", {
-        style: 3, //Select Style
-    })
-
 });
