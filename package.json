@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "sass": "^1.64.1"
+  },
+  "name": "devnexion",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass ./scss/style.scss ./assets/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "jaffar",
+  "license": "ISC",
+  "description": ""
+}
